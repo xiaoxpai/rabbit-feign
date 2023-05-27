@@ -35,7 +35,7 @@ public abstract class Feign {
    * 创建一个 api 绑定到 {@code target}。由于这会调用反射，因此应注意
    * 静态内部类的实例化。如果您正在使用Spring，请考虑使用{@link #builder（）}。
    *
-   * @return
+   * @return Builder
    */
   public static Builder builder() {
     return new Builder();
